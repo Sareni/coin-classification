@@ -158,7 +158,7 @@ def train_model(model, df):
 def create_data(mult_factor):
     df = pd.DataFrame(columns=['Class Label', 'Radius', 'Red', 'Green', 'Blue', 'Path'])
 
-    IMAGE_DIRECTORY = './img/'
+    IMAGE_DIRECTORY = './train_images/'
     directory = os.fsencode(IMAGE_DIRECTORY)
 
     # needed for testing
